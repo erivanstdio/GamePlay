@@ -21,7 +21,7 @@ const SingIn = () => {
         resizeMode='stretch'
       />
       <View style={styles.content}>
-        <Text style={styles.title}>Organize {`\n`} suas jogatinas {`\n`} facilmente</Text>
+        <Text style={styles.title}>Conecte-se {'\n'} e organize suas {'\n'} jogatinas</Text>
         <Text style={styles.subtitle}>Crie grupos para jogar seus games {`\n`} favoritos com seus amigos</Text>
         <ButtonIcon
           activeOpacity={0.7} 
