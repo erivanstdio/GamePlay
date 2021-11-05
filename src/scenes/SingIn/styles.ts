@@ -21,12 +21,16 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 40,
     marginBottom: 16,
+    fontFamily: 'Rajdhani-Bold',
+    lineHeight: 40,
   },
   subtitle: {
     color: theme.colors.heading,
     textAlign: 'center',
     fontSize: 15,
     marginBottom: 64,
+    fontFamily: 'Rajdhani-Medium',
+    lineHeight: 25,
   },
 });
 
