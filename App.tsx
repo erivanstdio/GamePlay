@@ -1,17 +1,19 @@
 import React from 'react';
-import SingIn from './src/scenes/SingIn';
 import { StatusBar } from 'react-native';
+
+import SingIn from './src/scenes/SingIn';
+import Background from './src/components/Background';
 
 const App = () => {
   return (
-    <>
-    <StatusBar
-        barStyle="light-content"
-        backgroundColor="transparent"
-        translucent
-      />
-    <SingIn/>
-    </>
+    <Background>
+      <StatusBar
+          barStyle="light-content"
+          backgroundColor="transparent"
+          translucent
+        />
+      <SingIn/>
+    </Background>
   );
 };
 

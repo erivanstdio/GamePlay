@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { View } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 
 import styles from './styles';
 
@@ -10,9 +10,9 @@ interface Props {
 const Background = ({children}: Props) => {
   return (
     // buscar biblioteca linear gradient
-    <View style={styles.container}>
+    <LinearGradient colors={['#E51C44','#E51C44', '#2f3136', '#2f3136','#1e2025']} style={styles.container}>
       {children}
-    </View>
+    </LinearGradient>
   );
 }
 
