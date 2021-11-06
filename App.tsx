@@ -1,8 +1,9 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
 
-import SingIn from './src/scenes/SingIn';
+import SingIn from './src/screens/SingIn';
 import Background from './src/components/Background';
+import Home from './src/screens/Home';
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
           backgroundColor="transparent"
           translucent
         />
-      <SingIn/>
+      <Home />
     </Background>
   );
 };

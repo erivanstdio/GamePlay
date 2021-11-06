@@ -10,7 +10,7 @@ interface Props {
 const Background = ({children}: Props) => {
   return (
     // buscar biblioteca linear gradient
-    <LinearGradient colors={['#E51C44','#E51C44', '#2f3136', '#2f3136','#1e2025']} style={styles.container}>
+    <LinearGradient colors={['#2f3136','#2a3030','#1f2126']} style={styles.container}>
       {children}
     </LinearGradient>
   );

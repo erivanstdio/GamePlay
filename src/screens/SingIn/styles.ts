@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     height: 360,
   },
   content: {
-    marginTop: -40,
+    marginTop: -20,
     paddingHorizontal: 50,
   },
   title: {
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     color: theme.colors.heading,
     textAlign: 'center',
     fontSize: 15,
-    marginBottom: 64,
+    marginBottom: 60,
     fontFamily: 'Rajdhani-Medium',
     lineHeight: 25,
   },
