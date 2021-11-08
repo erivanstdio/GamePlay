@@ -19,6 +19,7 @@ interface Props extends TouchableOpacityProps {
 
 const ButtonIcon = ({title, ...rest }: Props) => {
   return (
+    // utilizar o gesture-handler aumentaria desnecessariamente o nível de complexidade da aplicação
     <TouchableOpacity 
       style={styles.container}
       {...rest}

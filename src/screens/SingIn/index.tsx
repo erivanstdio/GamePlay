@@ -1,8 +1,6 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import styles from './styles';
 import IllustrationImg from '../../assets/illustration.png'
@@ -32,7 +30,7 @@ const SingIn = ({navigation}: Props) => {
           <Text style={styles.subtitle}>Crie grupos para jogar seus games {`\n`} favoritos com seus amigos</Text>
           <ButtonIcon
             onPress={() => handleNavigate()}
-            activeOpacity={0.7} 
+            activeOpacity={0.9} 
             title="Entrar com Discord"
           />
         </View>
