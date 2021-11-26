@@ -9,7 +9,7 @@ interface Props {
   urlImage: string;
 }
 
-
+// outra maneira de fazer: (urlImage: string) => {}
 const Avatar = ({urlImage}: Props) => {
 
   // desestruturando para melhor visualização
